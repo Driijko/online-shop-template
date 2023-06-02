@@ -81,6 +81,7 @@
       <li>
         <button type="button">
           <img src="./assets/icons/user.svg" alt="Log In." />
+          Log In
         </button>
       </li>
     </ul>
@@ -90,7 +91,6 @@
 
 <!-- SITE FOOTER ///////////////////////////// -->
 <footer>
-
 
   <section>
     <h3>Stay inspired and eco-conscious</h3>
@@ -190,6 +190,70 @@
   </p>
 
 </footer>
+
+<!-- LOG IN MODAL ///////////////////////////////// -->
+<dialog open>
+  <img src="./assets/icons/user.svg" alt="Log in." />
+  <h3>Log-In</h3>
+  <form>
+    <label for="name">User Name:
+      <input id="name" type="text" name="name" required />
+    </label>
+    <label for="password">Password:
+      <input id="password" type="password" name="password" required />
+    </label>
+    <button type="submit">Log In</button>
+  </form>
+</dialog>
+
+<!-- SHOPPING CART MODAL ////////////////////////////////////////// -->
+<dialog>
+  <h3>Cart</h3>
+  <ul>
+    <li>
+      <img src="" alt="" />
+      <h4>Product name</h4>
+      <p>
+        <span>regular price</span>
+        <span>sale price</span>
+      </p>
+      <input type="number" name="number" />
+    </li>
+  </ul>
+  <p>Subtotal <output>$0.00</output></p>
+  <a href="./checkout.html">Checkout</a>
+  <button type="button">close</button>
+</dialog>
+
+<!-- CHAT ASIDE //////////////////////////////// -->
+<aside>
+
+  <button type="button">
+    <img src="./assets/icons/chat.svg" alt="Live chat" />
+  </button>
+
+  <dialog>
+
+    <header>
+      <h3>Let's Chat!</h3>
+      <p>
+        <img src="./assets/icons/circle.svg" alt="Online" />
+        Online
+      </p>
+    </header>
+
+    <section>
+
+    </section>
+
+    <form>
+      <input type="text" name="message" placeholder="Type your message here..." />
+      <button type="submit">Submit</button>
+    </form>
+
+  </dialog>
+
+</aside>
 
 
 </body>
