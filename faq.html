@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- TAB ------------------------------ -->
-  <title>Re.vert: Home</title>
+  <title>Re.vert: FAQ</title>
   <meta name="theme-color" content="black" />
   <link rel="icon" href="./assets/favicon/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -15,10 +15,10 @@
   <link rel="manifest" href="/site.webmanifest">
 
   <!-- DESCRIPTION ------------------------------ -->
-  <meta name="description" content="Re.vert is a home products store dedicated to eco-friendly, sustainable and fair trade policies." />
+  <meta name="description" content="Re.vert is ab eco-friendly home products store. Answer your questions using our FAQ page." />
 
   <!-- OPEN GRAPH --------------------------- -->
-  <meta property="og:title" content="Re.Vert: Home" /> 
+  <meta property="og:title" content="Re.vert: FAQ" /> 
   <meta property="og:type" content="online store" /> 
   <meta property="og:image" content="" /> 
   <meta property="og:image:secure_url" content="" />
@@ -26,8 +26,8 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="" />
-  <meta property="og:description" content="Re.Vert is a home products store dedicated to eco-friendly, sustainable and fair trade policies." />
-  <meta property="og:url" content="https://driijko.github.io/online-shop-template" /> 
+  <meta property="og:description" content="Re.vert is ab eco-friendly home products store. Answer your questions using our FAQ page." />
+  <meta property="og:url" content="https://driijko.github.io/online-shop-template/faq.html" /> 
     
 </head>
 <body>
@@ -88,6 +88,70 @@
   </menu>
 
 </header>
+
+<!-- MAIN //////////////////////////////////// -->
+<main>
+  <h2>Frequently asked questions</h2>
+  <button type="button">
+    <img src="./assets/icons/search.svg" alt="search" />
+  </button>
+  <input type="search" placeholder="Looking for something?" name="search" />
+  <ul>
+    <li>
+      <label for="general">
+        General
+        <input id="general" type="radio" name="faq" value="general" />
+      </label>
+    </li>
+    <li>
+      <label for="specific">
+        Specific
+        <input id="specific" type="radio" name="faq" value="specific" />
+      </label>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <details>
+        <summary>
+          <span>Question 1?</span>
+          <span>
+            <img src="./assets/icons/angle-down.svg" alt="arrow down" />
+          </span>
+        </summary>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel pariatur nostrum ex ipsum voluptate iste, quibusdam dolorem eius praesentium eveniet rem nam facilis corporis delectus incidunt consectetur? Quasi, voluptates sit?
+        </p>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>
+          <span>Question 2?</span>
+          <span>
+            <img src="./assets/icons/angle-down.svg" alt="arrow down" />
+          </span>
+        </summary>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel pariatur nostrum ex ipsum voluptate iste, quibusdam dolorem eius praesentium eveniet rem nam facilis corporis delectus incidunt consectetur? Quasi, voluptates sit?
+        </p>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>
+          <span>Question 3?</span>
+          <span>
+            <img src="./assets/icons/angle-down.svg" alt="arrow down" />
+          </span>
+        </summary>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel pariatur nostrum ex ipsum voluptate iste, quibusdam dolorem eius praesentium eveniet rem nam facilis corporis delectus incidunt consectetur? Quasi, voluptates sit?
+        </p>
+      </details>
+    </li>
+  </ul>
+</main>
 
 <!-- SITE FOOTER ///////////////////////////// -->
 <footer>
@@ -192,7 +256,7 @@
 </footer>
 
 <!-- LOG IN MODAL ///////////////////////////////// -->
-<dialog open>
+<dialog>
   <img src="./assets/icons/user.svg" alt="Log in." />
   <h3>Log-In</h3>
   <form>
